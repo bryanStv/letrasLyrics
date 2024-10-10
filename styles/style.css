@@ -1,0 +1,22 @@
+*{
+    background-color: black;
+    color: greenyellow;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    li a{
+        display: block;
+        text-decoration: none;
+        margin: 1em;
+        padding: 0;
+    }
+    a:hover{
+        background-color: greenyellow;
+        color: black;
+    }
+}
+
