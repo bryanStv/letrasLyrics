@@ -1,6 +1,13 @@
-*{
-    background-color: black;
-    color: greenyellow;
+body{
+    background-color: grey;
+    color: whitesmoke;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.25em;
+    text-align: center;
 }
 
 nav ul{
@@ -15,8 +22,14 @@ nav ul{
         padding: 0;
     }
     a:hover{
-        background-color: greenyellow;
-        color: black;
+        background-color: #4CAF50;
+        color: grey;
     }
 }
 
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.25em;
+    text-align: right;
+}

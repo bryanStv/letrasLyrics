@@ -4,29 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Music Lyrics</title>
+    <title>Music Lyrics Home</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="">Todas las letras</a></li>
-                <li><a href="">Buscar canción</a></li>
-                <li><a href="">Usuario</a></li><!--Cambiar a usuario activo-->
+                <li><a href="pages/lyrics.html">Todas las letras</a></li>
+                <li><a href="pages/userPage.html">Usuario</a></li><!--Cambiar a usuario activo-->
             </ul>
         </nav>
     </header>
     <main id="inicio">
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Nemo aperiam cupiditate nobis laborum iste quaerat amet officiis 
-            excepturi suscipit, laboriosam, hic earum tenetur nihil ducimus 
-            maiores magni, neque eaque sequi!
-        </p>
+        <section>
+            <article>
+                <h2>Artículo 1</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nemo aperiam cupiditate nobis laborum iste quaerat amet officiis 
+                    excepturi suscipit, laboriosam, hic earum tenetur nihil ducimus 
+                    maiores magni, neque eaque sequi!
+                </p>
+            </article>
+            <article>
+                <h2>Artículo 2</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nemo aperiam cupiditate nobis laborum iste quaerat amet officiis 
+                    excepturi suscipit, laboriosam, hic earum tenetur nihil ducimus 
+                    maiores magni, neque eaque sequi!
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2>Registro de Usuario</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+    
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+        <aside>
+            <p>Hello World, Esto es un aside</p>
+        </aside>
     </main>
     <footer>
-
+        <p>Hola Mundo</p>
     </footer>
 </body>
 </html>
